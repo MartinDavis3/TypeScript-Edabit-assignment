@@ -17,7 +17,7 @@
 namespace sumOfCubes {
 
 const reducingFunction = ( a: number, v: number): number => {
-    return a + Math.pow( v, 3 )
+    return a + Math.pow( v, 3 );
 }
 
 const sumOfCubes = ( inputArray: number[] ): number => {
@@ -34,19 +34,19 @@ var result: number;
 console.log( "Sum of Cubes:" );
 
 trialArray = [ 1, 5, 9 ];
-result = sumOfCubes( trialArray )
-outputTrial( trialArray, result)
+result = sumOfCubes( trialArray );
+outputTrial( trialArray, result);
 
 trialArray = [ 3, 4, 5 ];
-result = sumOfCubes( trialArray )
-outputTrial( trialArray, result)
+result = sumOfCubes( trialArray );
+outputTrial( trialArray, result);
 
 trialArray = [ 2 ];
-result = sumOfCubes( trialArray )
-outputTrial( trialArray, result)
+result = sumOfCubes( trialArray );
+outputTrial( trialArray, result);
 
 trialArray = [];
-result = sumOfCubes( trialArray )
-outputTrial( trialArray, result)
+result = sumOfCubes( trialArray );
+outputTrial( trialArray, result);
 
 }

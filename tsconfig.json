@@ -10,5 +10,6 @@
     "files": [
         "main.ts",
         "edabit1.ts",
-        "edabit2.ts"]
+        "edabit2.ts",
+        "edabit3.ts"]
 }

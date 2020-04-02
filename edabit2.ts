@@ -35,15 +35,15 @@ var result: number;
 
 console.log( "Count Instances" );
 
-trial = ["a", "edabit"]
+trial = ["a", "edabit"];
 result = countInstances( trial[0], trial[1] );
 outputTrial( trial, result );
 
-trial = ["c", "Chamber of secrets"]
+trial = ["c", "Chamber of secrets"];
 result = countInstances( trial[0], trial[1] );
 outputTrial( trial, result );
 
-trial = ["b", "big fat bubble"]
+trial = ["b", "big fat bubble"];
 result = countInstances( trial[0], trial[1] );
 outputTrial( trial, result );
 
