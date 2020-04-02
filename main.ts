@@ -24,6 +24,8 @@ const sumOfCubes = ( inputArray: number[] ): number => {
     return inputArray.reduce( reducingFunction, 0 );
 }
 
+console.log( "Sum of Cubes:" );
+
 const trialArray1 = [ 1, 5, 9 ];
 console.log( sumOfCubes( trialArray1 ) );
 
@@ -37,3 +39,33 @@ const trialArray4: number[] = [];
 console.log( sumOfCubes( trialArray4 ) );
 
 
+/**
+ * Edabit (easy) challenge - Count Instances of a Character in a String
+ * https://edabit.com/challenge/kbFhwaDyrd79JrgeB
+ * 
+ * Create a function that takes two strings as arguments and returns the number
+ * of times the first string (the single character) is found in the second string.
+ * Examples
+ * charCount("a", "edabit") ➞ 1
+ * charCount("c", "Chamber of secrets") ➞ 1
+ * charCount("b", "big fat bubble") ➞ 4
+ * Notes
+ * Your output must be case-sensitive (see second example).
+ */
+
+console.log( "Count Instances" );
+
+const countInstances = ( testChar: string, testPhrase: string): number => {
+    let phraseArray = testPhrase.split("");
+    let count = 0;
+    for ( let i = 0; i < phraseArray.length; i++ ) {
+        if ( testChar === phraseArray[i] ) {
+            count++;
+        }
+    }
+    return count;
+}
+
+console.log( countInstances("a", "edabit") );
+console.log( countInstances("c", "Chamber of secrets") );
+console.log( countInstances("b", "big fat bubble") );
