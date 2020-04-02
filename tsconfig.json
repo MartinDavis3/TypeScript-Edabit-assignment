@@ -8,6 +8,7 @@
         "lib": ["dom", "es2015", "es2016"]
     },
     "files": [
-        "main.ts"
-    ]
+        "main.ts",
+        "edabit1.ts",
+        "edabit2.ts"]
 }
