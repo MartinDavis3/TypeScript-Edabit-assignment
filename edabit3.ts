@@ -1,7 +1,7 @@
 
 /**
  * Edabit (medium) challenge - Match the Last Item
- * 
+ * https://edabit.com/challenge/jbR9NupEL8zAZkbKx
  * Create a function that takes an array of items and checks if the last item matches the rest of the array.
  * Examples
  * matchLastItem(["rsq", "6hi", "g", "rsq6hig"]) ➞ true
